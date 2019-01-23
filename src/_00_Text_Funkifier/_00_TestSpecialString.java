@@ -38,6 +38,7 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+	ScrambleString sc = new ScrambleString("Hello");
+	System.out.println(sc);
 	}
 }
