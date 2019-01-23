@@ -8,7 +8,6 @@ public class Atlanta extends City{
 
 	@Override
 	double getAnnualTaxes() {
-		return 0;
+		return (getPopulation()*(getGrowthRate()*2));
 	}
-
 }

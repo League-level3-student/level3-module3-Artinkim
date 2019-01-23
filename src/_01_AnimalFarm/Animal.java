@@ -1,9 +1,7 @@
 package _01_AnimalFarm;
 
-public class Animal {
-	public void makeNoise() {
-		
-	}
+public abstract class Animal {
+	public abstract void makeNoise();
 	public void eat() {
 		System.out.println("um num num");
 	}
